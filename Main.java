@@ -11,7 +11,7 @@ class Main {
     {
       System.out.println("What is you name");
       names [i] = scan.next();
-      
+      System.out.println( names [i] + " sits in seat " + seats [i]);   
     }
   }
 }

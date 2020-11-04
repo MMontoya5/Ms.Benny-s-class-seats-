@@ -5,12 +5,13 @@ class Main {
     int[] seats = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 };
     String[] names = new String[15];
 
+    Scanner scan = new Scanner(System.in); 
+
     for (int i = 0; i < names.length; i++) 
     {
-      Scanner scan = new Scanner(System.in); 
       System.out.println("What is you name");
-      String name = scan.next();
-      System.out.println( name + "sits in seat"); 
+      names [i] = scan.next();
+      
     }
   }
 }

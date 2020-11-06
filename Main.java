@@ -17,7 +17,7 @@ class Main {
     while (seats [i] < names.length)
     {
       
-     
+     i++;
     }
   }
 }

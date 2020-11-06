@@ -10,13 +10,12 @@ class Main {
     for (int i = 0; i < names.length; i++) 
     {
       System.out.println("What is you name");
-      names [i] = scan.next();
-      System.out.println( names [i] + " sits in seat " + seats [i]);   
+      names [i] = scan.next();   
     }
     int i = 0;
     while (seats [i] < names.length)
     {
-      
+     System.out.println( names [i] + " sits in seat " + seats [i]);  
      i++;
     }
   }
